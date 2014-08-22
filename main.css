@@ -1,0 +1,107 @@
+html , body {
+    background : black;
+    margin: 0;
+    text-align: center;
+}
+}
+
+.list a {
+    height:30px;
+}
+
+.list li{
+	width:150px;
+	margin-top:5px; 
+    margin-left:50px;/*調整與文字的間距*/
+    float:left; /*li 橫向水平*/
+}
+
+.list ul{
+	list-style:none; /*取消浮點*/
+    width: 1000px;
+    height: 70px;
+	position: relative;/*置中需要*/
+    left: 50%;
+    margin-left: -490px;
+}
+
+.contain {
+	background-image:url(the_great_gatsby_movie-wide.jpg);
+	background-repeat: no-repeat; 
+	height :700px;
+    -moz-background-size: cover;
+	background-size: cover;
+
+}
+
+.contain-story{
+	background-image:url(GG_about_synopsis.jpg);
+	background-repeat: no-repeat; 
+	height :700px;
+    -moz-background-size: cover;
+	background-size: cover;
+
+}
+
+.contain-GATSBY{
+	background-image:url(The-Great-Gatsby.jpg);
+	background-repeat: no-repeat; 
+	height :700px;
+    -moz-background-size: cover;
+	background-size: cover;
+
+}
+
+.contain-TRAILER{
+	font-family:Microsoft JhengHei; 
+    color:white;
+    background-image:url(green.jpg);
+	background-repeat: no-repeat; 
+	height :700px;
+    -moz-background-size: cover;
+	background-size: cover;
+
+}
+
+.story{
+	font-family:Microsoft JhengHei; 
+    color:white;
+	position:absolute ; 
+	top:250px ; 
+	left:700px;
+	width: 450px;
+	height:300px;
+	padding :3%; /*內間距*/
+	
+	text-align: left;
+	background-color:black;
+	filter:Alpha(Opacity=80, FinishOpacity=80, Style=2); /* IE 透明度*/
+    -moz-opacity:0.6; /* Moz + FF */
+    opacity:0.6; /* CSS3 */
+}
+.footer {
+	color: white;
+}
+
+.list li{
+    width :100px;
+}
+
+.tab {
+	font-family:Microsoft JhengHei; 
+    color:white;
+	position:absolute ; 
+	top:250px ; 
+	left:650px;
+}
+
+.liquid-slider{
+	text-align: left;
+	background-color:black;
+	filter:Alpha(Opacity=80, FinishOpacity=80, Style=2); /* IE 透明度*/
+    -moz-opacity:0.6; /* Moz + FF */
+    opacity:0.6; /* CSS3 */
+}
+/*list 欄位 參考http://www.w3cn.org/article/tips/2005/105.html */
+/*TAB切換參考http://liquidslider.com/*/
+/*photo樣式套用http://www.woothemes.com/*/

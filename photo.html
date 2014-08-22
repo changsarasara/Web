@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html> 
+<head>
+  <meta charset="utf-8">
+  <!-- Demo CSS -->
+  <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+  <!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+  <!-- FlexSlider -->
+  <script defer src="js/jquery.flexslider.js"></script>
+
+  <script >
+    $(window).load(function() {
+    $('.flexslider').flexslider({
+      animation: "slide",
+      controlNav: "thumbnails"
+    });
+    });
+  </script>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="li-style.css">
+  <style type="text/css">
+    a{
+      color:white;
+      text-decoration:none 
+    }
+  </style> 
+  <title>劇照欣賞</title>
+</head>
+
+<body>
+<div class = "list">
+  <ul>
+    <li><a href ="index.html">TOP</a></li>
+    <li><a href ="story.html">STORY</a></li>
+    <li><a href ="cast.html">CAST</a></li>
+    <li><a href ="photo.html">PHOTO</a></li>
+    <li><a href ="trailer.html">TRAILER</a></li>
+  </ul>
+</div>
+
+<div class = "flexslider">
+  <ul>
+    <ul class="slides">
+    <li data-thumb="/photo/01-small.jpg">
+      <img src="/photo/01.jpg" />
+    </li>
+    <li data-thumb="/photo/02-small.jpg">
+      <img src="/photo/02.jpg" />
+    </li>
+    <li data-thumb="/photo/03-small.jpg">
+      <img src="/photo/03.jpg" />
+    </li>
+    <li data-thumb="/photo/04-small.jpg">
+      <img src="/photo/04.jpg" />
+    </li>
+  </ul>
+
+</div>
+
+<div class = "footer">
+  <p> @ 2013 The Great Gatsby. ALL RIGHTS RESERVED. </p>
+  <p>Designed by sara.　推薦以Chrome瀏覽器服用為佳。</p>
+</div>
+  
+</body>
+</html>
